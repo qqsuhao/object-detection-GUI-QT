@@ -1,0 +1,29 @@
+<RCC>
+  <qresource prefix="pics">
+    <file>pics/connect.ico</file>
+    <file>pics/refresh.png</file>
+    <file>pics/usb.png</file>
+    <file>pics/usb_off.png</file>
+    <file>pics/prohibition.png</file>
+    <file>pics/minus.png</file>
+    <file>pics/plus.png</file>
+    <file>pics/folder.png</file>
+    <file>pics/save.png</file>
+    <file>pics/Degrees_Celcius.png</file>
+    <file>pics/timg.jpg</file>
+    <file>pics/analysis.png</file>
+    <file>pics/temperature.png</file>
+    <file>pics/power_button.png</file>
+    <file>pics/stop.png</file>
+    <file>pics/arrow_right.png</file>
+    <file>pics/back.jpg</file>
+    <file>pics/direction.jpg</file>
+    <file>pics/down_arrow.png</file>
+    <file>pics/left_arrow.png</file>
+    <file>pics/pause.png</file>
+    <file>pics/play.png</file>
+    <file>pics/power.jpg</file>
+    <file>pics/timg.jpg</file>
+    <file>pics/up_arrow.png</file>
+  </qresource>
+</RCC>
