@@ -118,7 +118,8 @@ class Painting(QLabel):
         # if event.button() == Qt.LeftButton:
             start_x, start_y = self.ROI_rect[0:2]
             edge = min(event.x() - start_x, event.y() - start_y)    # 为了画成标准圆而不是椭圆
-            self.ROI_rect = (start_x, start_y, edge, edge)
+            # self.ROI_rect = (start_x, start_y, edge, edge)
+            self.ROI_rect = (start_x, start_y, 256, 256)
             self.update()
 
 
@@ -126,7 +127,8 @@ class Painting(QLabel):
     def mouseReleaseEvent(self, event):
         if event.button() == Qt.LeftButton and self.flag_right == 0:
             start_x, start_y = self.ROI_rect[0:2]
-            edge = min(event.x() - start_x, event.y() - start_y)    # 为了画成标准圆而不是椭圆
+            # edge = min(event.x() - start_x, event.y() - start_y)    # 为了画成标准圆而不是椭圆
+            edge = 256
             self.ROI_rect = (start_x, start_y, edge, edge)
             self.Leftbutton = False
             self.plotpatch_signal.emit()

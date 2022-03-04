@@ -7,10 +7,10 @@
 程序运行的主函数
 '''
 
-from ui.Mainwindow import *
+from client.ui.Mainwindow import *
 from PyQt5.QtWidgets import QWidget, QApplication
 import sys
-from ui.print_log import *
+from client.ui.print_log import *
 import os, sys
 
 
@@ -27,6 +27,6 @@ if __name__ == '__main__':
     App = QApplication(sys.argv)
     window = Mainwindow()
     window.setWindowFlags(QtCore.Qt.Window)
-    # window.showFullScreen()
-    window.show()
+    window.showFullScreen()
+    # window.show()
     sys.exit(App.exec_())

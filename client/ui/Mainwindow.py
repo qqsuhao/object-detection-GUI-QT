@@ -7,21 +7,21 @@
 '''
 
 import cv2
-from ui.gui import *
-from ui.gui_thread import *
-from ui.paint_ROI import *
+from client.ui.gui import *
+from client.ui.gui_thread import *
+from client.ui.paint_ROI import *
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtChart import *
 import platform
-from ui.load_ini_file import *
-from ui.read_usb import *
-from ui.chart import *
-from ui.utils import *
+from client.ui.load_ini_file import *
+from client.ui.read_usb import *
+from client.ui.chart import *
+from client.ui.utils import *
 import os
 import psutil
-from ui.httpclient import *
+from client.ui.httpclient import *
 
 
 def Sleep(msec):
@@ -142,7 +142,7 @@ class Mainwindow(QWidget, Ui_counting_Form):    # 需要继承设计文件中的
         # self.chart_thread3._signal_updateUI.connect(self.draw_qchart3)
         # self.chart_thread3.start()
         ## http ping
-        self.ping_thread = PingThread(self.ip)
+        self.ping_thread = PingThread(ip=self.ip, sleep_time=0.5)
         self.ping_thread.ping_signal.connect(self.draw_qchart1)
         self.http_client = HttpClient(self.ip)
         self.http_client.http_signal.connect(self.draw_qchart2)
@@ -199,9 +199,14 @@ class Mainwindow(QWidget, Ui_counting_Form):    # 需要继承设计文件中的
         self.graphicsView.setRenderHint(QPainter.Antialiasing)  # 抗锯齿
         self.graphicsView_2.setRenderHint(QPainter.Antialiasing)  # 抗锯齿
         self.graphicsView_3.setRenderHint(QPainter.Antialiasing)  # 抗锯齿
-        self.chart1.setTitle("网络吞吐量(MB)")
-        self.chart2.setTitle("Ping(ms)")
-        self.chart3.setTitle("FPS(ms)")
+        ft = QFont()
+        ft.setPixelSize(12)
+        self.chart1.setTitleFont(ft)
+        self.chart1.axisY.setTitleText("Ping(ms)")
+        self.chart2.setTitleFont(ft)
+        self.chart2.axisY.setTitleText("FPS(ms)")
+        self.chart3.setTitleFont(ft)
+        self.chart3.axisY.setTitleText("Conf")
 
 
     def params_save(self, dict_params):

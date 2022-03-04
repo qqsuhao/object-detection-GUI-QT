@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4de8fb7f-84fd-4cec-a807-c28f112fd4e9" name="Default Changelist" comment="" />
+    <list default="true" id="4de8fb7f-84fd-4cec-a807-c28f112fd4e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/Mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/Mainwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/gui.ui" beforeDir="false" afterPath="$PROJECT_DIR$/ui/gui.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +19,7 @@
     <SUITE FILE_PATH="coverage/client$client.coverage" NAME="client Coverage Results" MODIFIED="1640270130150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
     <SUITE FILE_PATH="coverage/client$test.coverage" NAME="test Coverage Results" MODIFIED="1639822637852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/client$httpclient__1_.coverage" NAME="httpclient (1) Coverage Results" MODIFIED="1641383915672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
-    <SUITE FILE_PATH="coverage/client$main.coverage" NAME="main Coverage Results" MODIFIED="1641391373602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
+    <SUITE FILE_PATH="coverage/client$main.coverage" NAME="main Coverage Results" MODIFIED="1641988470692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/client$utils.coverage" NAME="utils Coverage Results" MODIFIED="1639819327270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui" />
     <SUITE FILE_PATH="coverage/client$httpclient.coverage" NAME="httpclient Coverage Results" MODIFIED="1641181698025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
     <SUITE FILE_PATH="coverage/client$send.coverage" NAME="send Coverage Results" MODIFIED="1640162302549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/socket" />
@@ -36,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui/chart.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+            <state relative-caret-position="672">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#98#127#0" expanded="true" />
               </folding>
@@ -46,9 +53,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui/httpclient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2289">
+            <state relative-caret-position="2079">
               <caret line="109" column="73" selection-start-line="109" selection-start-column="73" selection-end-line="109" selection-end-column="73" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
@@ -60,11 +76,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui/Mainwindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="63">
+              <caret line="195" column="47" lean-forward="true" selection-start-line="195" selection-start-column="47" selection-end-line="195" selection-end-column="47" />
               <folding>
                 <element signature="e#120#130#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/gui.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7518">
+              <caret line="358" selection-start-line="358" selection-end-line="358" />
             </state>
           </provider>
         </entry>
@@ -103,6 +128,9 @@
       <find>FromLabelToImage</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -113,22 +141,23 @@
         <option value="$PROJECT_DIR$/socket/send.py" />
         <option value="$PROJECT_DIR$/socket/client.py" />
         <option value="$PROJECT_DIR$/ui/gui_thread.py" />
-        <option value="$PROJECT_DIR$/ui/gui.py" />
         <option value="$PROJECT_DIR$/ui/utils.py" />
         <option value="$PROJECT_DIR$/socket/httpclient.py" />
-        <option value="$PROJECT_DIR$/ui/main.py" />
-        <option value="$PROJECT_DIR$/ui/chart.py" />
         <option value="$PROJECT_DIR$/ui/httpclient.py" />
+        <option value="$PROJECT_DIR$/ui/chart.py" />
+        <option value="$PROJECT_DIR$/ui/main.py" />
+        <option value="$PROJECT_DIR$/ui/gui.py" />
         <option value="$PROJECT_DIR$/ui/Mainwindow.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="992" />
-    <option name="y" value="45" />
-    <option name="width" value="979" />
-    <option name="height" value="1054" />
+    <option name="x" value="640" />
+    <option name="y" value="40" />
+    <option name="width" value="980" />
+    <option name="height" value="1055" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -160,7 +189,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../server" />
+    <property name="last_opened_file_path" value="F:/research/SNN-YOLO/one-shot-YOLOv3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
@@ -329,11 +358,17 @@
       <workItem from="1640872170391" duration="804000" />
       <workItem from="1641178520166" duration="12657000" />
       <workItem from="1641382324198" duration="9070000" />
+      <workItem from="1641817914461" duration="3545000" />
+      <workItem from="1641887042112" duration="625000" />
+      <workItem from="1641988351307" duration="229000" />
+      <workItem from="1642136728703" duration="609000" />
+      <workItem from="1642470460257" duration="416000" />
+      <workItem from="1642754082648" duration="267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85054000" />
+    <option name="totallyTimeSpent" value="90745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,14 +380,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="12" width="1550" height="859" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965422" visible="true" weight="0.1313673" />
-      <window_info id="Structure" order="1" sideWeight="0.50345784" side_tool="true" visible="true" weight="0.1313673" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48790896" visible="true" weight="0.14075068" />
+      <window_info id="Structure" order="1" sideWeight="0.51209104" side_tool="true" visible="true" weight="0.14075068" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30705395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30583215" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39419088" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -403,7 +438,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/ui/Mainwindow.py</url>
-          <line>600</line>
+          <line>605</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -573,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="351" column="8" selection-start-line="351" selection-start-column="8" selection-end-line="351" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/gui_thread.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
@@ -590,33 +618,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/Mainwindow-copy.py" />
     <entry file="file://$PROJECT_DIR$/ui/chart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="35" column="43" lean-forward="true" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+        <state relative-caret-position="672">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#98#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/Mainwindow-copy.py">
+    <entry file="file://$PROJECT_DIR$/ui/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="746" column="37" selection-start-line="746" selection-start-column="37" selection-end-line="746" selection-end-column="37" />
+        <state relative-caret-position="378">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/httpclient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2289">
+        <state relative-caret-position="2079">
           <caret line="109" column="73" selection-start-line="109" selection-start-column="73" selection-end-line="109" selection-end-column="73" />
           <folding>
             <element signature="e#14#24#0" expanded="true" />
@@ -624,10 +646,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7518">
+          <caret line="358" selection-start-line="358" selection-end-line="358" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui/Mainwindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="63">
+          <caret line="195" column="47" lean-forward="true" selection-start-line="195" selection-start-column="47" selection-end-line="195" selection-end-column="47" />
           <folding>
             <element signature="e#120#130#0" expanded="true" />
           </folding>

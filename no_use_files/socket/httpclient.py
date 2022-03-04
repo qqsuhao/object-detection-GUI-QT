@@ -98,8 +98,8 @@ class HttpClient(QThread):
         duration = time.time() - start_time
         print('duration:[%.0fms]' % (duration * 1000))
         self.http_signal.emit({"time": duration*1000})
-        data_Bytes = json.loads(message.data)
-        loc = np.frombuffer(data_Bytes, dtype="float16")
+        data_Bytes = json.loads(message.text)
+        loc = np.frombuffer(eval(data_Bytes["loc"]), dtype="float16")
         print(loc)
         return loc
 
@@ -107,9 +107,10 @@ class HttpClient(QThread):
         while self.flag:
             self.post()
 
-if __name__ == "main":
-    httpclient = HttpClient(ip="127.0.0.1")
-    httpclient.post()
+# if __name__ == "main":
+httpclient = HttpClient(ip="10.104.0.241")
+httpclient.img = cv2.imread("1.jpg")
+httpclient.post()
 
 
 
