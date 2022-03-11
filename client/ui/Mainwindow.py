@@ -554,7 +554,9 @@ class Mainwindow(QWidget, Ui_counting_Form):    # 需要继承设计文件中的
         targets_cir：
         targets
         '''
-        targets_cir = targets_dict["targets"]
+        self.label_paint.init_Pixmap(self.label_12.size())
+        targets_cir_tmp = targets_dict["targets"]
+        targets_cir = targets_cir_tmp * self.origin_width
         scale_coe = self.origin_width / self.scaled_width       # 缩放倍数
         if targets_cir.size > 0:                # 如果矩阵非空
             targets = np.zeros((targets_cir.shape[0], 5))       # 将targets_cir转换为targets
@@ -562,7 +564,7 @@ class Mainwindow(QWidget, Ui_counting_Form):    # 需要继承设计文件中的
                 w, h = targets_cir[i, 2], targets_cir[i, 3]
                 x, y = targets_cir[i, 0], targets_cir[i, 1]
                 a, b = self.FromImageToLabel(x, y)            # 计算图片中的位置对应到label中的位置
-                targets[i, 2], targets[i, 3] = 2 * int(w / scale_coe), 2 * int(h / scale_coe)
+                targets[i, 2], targets[i, 3] = int(w / scale_coe), int(h / scale_coe)
                 targets[i, 0], targets[i, 1] = a, b
             self.label_paint.plot_targets(targets)
         else:
@@ -597,10 +599,11 @@ class Mainwindow(QWidget, Ui_counting_Form):    # 需要继承设计文件中的
             qimg_1 = self.label_paint.board.toImage()
             img = self.QImageToMat(qimg)
             img_1 = self.QImageToMat(qimg_1)
-            cut_area = int((img_1.shape[0] - img.shape[0]) / 2)
+            cut_area_h = int((img_1.shape[0] - img.shape[0]) / 2)
+            cut_area_w = int((img_1.shape[1] - img.shape[1]) / 2)
             # img = cv2.addWeighted(img, 1, img_1[cut_area:cut_area+img.shape[0], 0:img.shape[0], :], 2, 0)
             # 以下操作是为了将图片和绘制的圆两个图层合并到一起
-            img_1 = img_1[cut_area:cut_area+img.shape[0], 0:img.shape[0], :]
+            img_1 = img_1[cut_area_h:cut_area_h+img.shape[0], cut_area_w:cut_area_w+img.shape[1], :]
             gray = cv2.cvtColor(img_1, cv2.COLOR_BGR2GRAY)
             _, mask = cv2.threshold(gray, 2, 255, cv2.THRESH_BINARY)
             mask_inv = cv2.bitwise_not(mask)
@@ -616,6 +619,10 @@ class Mainwindow(QWidget, Ui_counting_Form):    # 需要继承设计文件中的
                 path = savePath[0] + ".png"
             cv2.imwrite(path, img)
 
+            ## 如果文件以template命名，将其作为模板图像发送至服务器
+            img_name = os.path.split(path)[-1].split(".")[0]
+            if img_name == "template":
+                self.http_client.transfer_to_server(img)
 
 
     def process_usb(self):

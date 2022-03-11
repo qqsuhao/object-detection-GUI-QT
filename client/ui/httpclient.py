@@ -109,6 +109,14 @@ class HttpClient(QThread):
         return data_Bytes
 
 
+    def transfer_to_server(self, img):
+        if img is None:
+            return
+        img = cv2.resize(img, (256, 256))
+        res = {"template": str(self.encodeimg(img))}
+        message = requests.post("http://" + self.ip + ":" + self.port, headers=self.headers, data=json.dumps(res))
+
+
     def parse_message(self):
         pass
 
@@ -118,14 +126,17 @@ class HttpClient(QThread):
         if self.img is None:
             self.qmut.unlock()
             return
+        self.img = cv2.resize(self.img, (256, 256))
+        start_time = time.time()
         res = {"image": str(self.encodeimg(self.img))}  # img是ndarray，无法直接用base64编码，否则会报错
+        duration = time.time() - start_time
+        print('encoding image duration:[%.0fms]' % (duration * 1000))
         self.qmut.unlock()
 
         try:        # 防止服务器崩溃
-            start_time = time.time()
             message = requests.post("http://"+self.ip+":"+self.port, headers=self.headers, data=json.dumps(res))
             duration = time.time() - start_time
-            # print('duration:[%.0fms]' % (duration * 1000))
+            print('total duration:[%.0fms]' % (duration * 1000))
             self.http_signal.emit({"time": duration * 1000})
             ## 读取reponse数据
             data_Bytes = json.loads(message.text)
