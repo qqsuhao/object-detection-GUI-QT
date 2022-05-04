@@ -11,7 +11,8 @@ def encodeimg(img_path):
     import cv2
     import numpy as np
     img = cv2.imread(img_path)
-    encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
+    # encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 90]
+    encode_param = [int(cv2.IMWRITE_PNG_COMPRESSION), 9]
     result, imgencode = cv2.imencode('.jpg', img, encode_param)
     data = np.array(imgencode)
     data_Bytes = data.tobytes()

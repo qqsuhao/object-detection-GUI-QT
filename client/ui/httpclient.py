@@ -102,7 +102,7 @@ class HttpClient(QThread):
 
 
     def encodeimg(self, img):
-        encode_param = [int(cv2.IMWRITE_PNG_COMPRESSION), 9]
+        encode_param = [int(cv2.IMWRITE_PNG_COMPRESSION), 5]
         result, imgencode = cv2.imencode('.png', img, encode_param)
         data = np.array(imgencode)
         data_Bytes = data.tobytes()

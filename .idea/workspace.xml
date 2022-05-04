@@ -6,8 +6,7 @@
       <change beforePath="$PROJECT_DIR$/client/ui/LOG.log" beforeDir="false" afterPath="$PROJECT_DIR$/client/ui/LOG.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/ui/Mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/ui/Mainwindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/ui/httpclient.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/ui/httpclient.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/ui/paint_ROI.py" beforeDir="false" afterPath="$PROJECT_DIR$/client/ui/paint_ROI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/no_use_files/socket/client-test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/no_use_files/socket/send.py" beforeDir="false" afterPath="$PROJECT_DIR$/no_use_files/socket/send.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/graduation_code$httpclient.coverage" NAME="httpclient Coverage Results" MODIFIED="1646747706943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no_use_files/socket" />
-    <SUITE FILE_PATH="coverage/graduation_code$main.coverage" NAME="main Coverage Results" MODIFIED="1646814163788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client/ui" />
+    <SUITE FILE_PATH="coverage/graduation_code$main.coverage" NAME="main Coverage Results" MODIFIED="1650420658197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client/ui" />
     <SUITE FILE_PATH="coverage/graduation_code$test.coverage" NAME="test Coverage Results" MODIFIED="1646115127319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/client" />
     <SUITE FILE_PATH="coverage/graduation_code$httpserver.coverage" NAME="httpserver Coverage Results" MODIFIED="1646747698388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/graduation_code$send.coverage" NAME="send Coverage Results" MODIFIED="1646747618246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/no_use_files/socket" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/ui/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="126">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -36,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/ui/Mainwindow.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11424">
-              <caret line="559" selection-start-line="559" selection-end-line="559" />
+            <state relative-caret-position="1702">
+              <caret line="609" selection-start-line="609" selection-end-line="610" />
               <folding>
                 <element signature="e#120#130#0" expanded="true" />
               </folding>
@@ -45,32 +44,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/no_use_files/socket/send.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/ui/httpclient.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="128" column="49" selection-start-line="128" selection-start-column="49" selection-end-line="128" selection-end-column="49" />
+            <state relative-caret-position="420">
+              <caret line="104" column="59" selection-start-line="104" selection-start-column="59" selection-end-line="104" selection-end-column="59" />
               <folding>
                 <element signature="e#14#24#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/ui/gui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7371">
-              <caret line="351" column="54" selection-start-line="351" selection-start-column="54" selection-end-line="351" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -99,14 +80,15 @@
         <option value="$PROJECT_DIR$/server/httpserver.py" />
         <option value="$PROJECT_DIR$/no_use_files/socket/httpclient.py" />
         <option value="$PROJECT_DIR$/client/ui/paint_ROI.py" />
+        <option value="$PROJECT_DIR$/no_use_files/socket/send.py" />
         <option value="$PROJECT_DIR$/client/ui/Mainwindow.py" />
         <option value="$PROJECT_DIR$/client/ui/httpclient.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="690" />
-    <option name="y" value="51" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="717" />
+    <option name="y" value="23" />
     <option name="width" value="1210" />
     <option name="height" value="965" />
   </component>
@@ -131,13 +113,8 @@
             <path>
               <item name="graduation-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="graduation-code" type="462c0819:PsiDirectoryNode" />
-              <item name="no_use_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduation-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduation-code" type="462c0819:PsiDirectoryNode" />
-              <item name="no_use_files" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduation-code" type="b2602c69:ProjectViewProjectNode" />
@@ -152,6 +129,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/research/YOLOv5/code/yolov5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -312,12 +290,16 @@
       <workItem from="1646746726942" duration="2962000" />
       <workItem from="1646794671984" duration="7277000" />
       <workItem from="1646814158458" duration="619000" />
-      <workItem from="1646982083056" duration="1804000" />
+      <workItem from="1646982083056" duration="2530000" />
+      <workItem from="1646985937118" duration="72000" />
+      <workItem from="1647069185561" duration="82000" />
+      <workItem from="1650355547687" duration="235000" />
+      <workItem from="1650416782746" duration="4057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26209000" />
+    <option name="totallyTimeSpent" value="31381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -329,15 +311,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="552" y="41" width="968" height="772" extended-state="0" />
+    <frame x="-7" y="12" width="1550" height="859" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22307692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14812332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997155" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28876245" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3499289" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32859176" />
@@ -345,9 +327,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Statistic" order="10" weight="0.29545453" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.66071427" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.428115" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.2517781" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.25162336" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -370,6 +352,16 @@
           <url>file://$PROJECT_DIR$/server/httpserver.py</url>
           <line>25</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/no_use_files/socket/send.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/client/ui/Mainwindow.py</url>
+          <line>609</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -394,13 +386,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no_use_files/socket/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/ui/Detect_alg.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -418,6 +403,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/ui/paint_ROI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="971">
+          <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no_use_files/socket/send.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/ui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no_use_files/socket/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="76" column="25" lean-forward="true" selection-start-line="76" selection-start-column="25" selection-end-line="76" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/ui/gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="351" column="54" selection-start-line="351" selection-start-column="54" selection-end-line="351" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/no_use_files/socket/httpclient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="110" column="40" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/httpserver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -428,55 +455,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no_use_files/socket/httpclient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="110" column="40" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/ui/paint_ROI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/ui/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/ui/Mainwindow.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11424">
-          <caret line="559" selection-start-line="559" selection-end-line="559" />
+        <state relative-caret-position="1702">
+          <caret line="609" selection-start-line="609" selection-end-line="610" />
           <folding>
             <element signature="e#120#130#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/no_use_files/socket/send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/ui/gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7371">
-          <caret line="351" column="54" selection-start-line="351" selection-start-column="54" selection-end-line="351" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/ui/httpclient.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="128" column="49" selection-start-line="128" selection-start-column="49" selection-end-line="128" selection-end-column="49" />
+        <state relative-caret-position="420">
+          <caret line="104" column="59" selection-start-line="104" selection-start-column="59" selection-end-line="104" selection-end-column="59" />
           <folding>
             <element signature="e#14#24#0" expanded="true" />
           </folding>

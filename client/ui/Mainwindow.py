@@ -40,7 +40,7 @@ class Mainwindow(QWidget, Ui_counting_Form):    # 需要继承设计文件中的
         self.system = platform.system()     # 检测系统是windows还是linux
         self.camera_label = 210
         if self.system == "Windows":
-            self.camera_label = 700        # 相机
+            self.camera_label = 0        # 相机
         self.flag_cap = 0           # 标志位：是否有相机
         self.flag_usb = 0           # 标志位：是否插入USB
         self.flag_play = 1          # 标记是进行播放还是停止
